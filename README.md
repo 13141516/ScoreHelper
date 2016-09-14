@@ -10,4 +10,4 @@
 ![image](https://github.com/13141516/ScoreHelper/raw/master/CarPro/screenshot/one.png)<br />
 
 #效果图
-![image](https://github.com/13141516/ScoreHelper/raw/master/CarPro/screenshot/two.png)<br />
+![image](https://github.com/13141516/ScoreHelper/raw/master/CarPro/screenshot/four.png)<br />
