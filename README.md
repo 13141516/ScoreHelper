@@ -1,14 +1,18 @@
 #ScoreHelper，针对中科院大学成绩查询，当有新成绩出现时，提供邮件提醒服务<br />
 
 #配置
+###数据库和账号相关的配置
 1.数据库的配置：数据库的配置文件在c3p0.xml中，数据库表名为customer,表结构请参考<br />
 ![image](https://github.com/13141516/ScoreHelper/raw/master/CarPro/screenshot/three.png)<br />
 2.邮箱发送账号：邮箱发送账号和密码的设置在score.py文件中<br />
+###python环境的相关配置
 3.python版本及依赖库：python3.4.4<br />
 依赖包beautifulsoup，requests 安装：<br />
 pip install beautifulsoup4<br />
 pip install requests<br />
+###java环境的相关设置
 4.java版本：java version "1.8.0_60"<br />
+###运行环境的相关设置
 5.项目打war包后，可直接放置于tomcat直接运行<br />
 
 #使用流程
