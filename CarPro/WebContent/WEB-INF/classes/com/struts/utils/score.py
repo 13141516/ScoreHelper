@@ -14,8 +14,8 @@ from email.header import Header
 class MailService(object):
     __mail_host = 'smtp.163.com'
     __mail_port = 25
-    __mail_user = 'chuzhouchenli@163.com' 
-    __mail_pass = 'chenli123'
+    __mail_user = 'chuzhouchenli@163.com' #账号
+    __mail_pass = '****'#密码
     __mail_prefix = '@qq.com'
     def __init__(self, email_Number, email_context):
         self.email_number = email_Number
