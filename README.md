@@ -2,8 +2,7 @@
 
 #配置
 ###数据库和账号相关的配置
-1.数据库的配置：数据库的配置文件在c3p0.xml中，数据库表名为customer,表结构请参考<br />
-![image](https://github.com/13141516/ScoreHelper/raw/master/CarPro/screenshot/three.png)<br />
+1.数据库的配置：数据库的配置文件在c3p0.xml中，数据库表名为customer,创建表的sql位于目录下的screentshot文件夹中<br />
 2.邮箱发送账号：邮箱发送账号和密码的设置在score.py文件中<br />
 ###python环境的相关配置
 3.python版本及依赖库：python3.4.4<br />
