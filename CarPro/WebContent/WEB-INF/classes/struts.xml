@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>   
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<constant name="struts.ognl.allowStaticMethodAccess" value="false" />  <!-- 允许访问静态方法 -->
+	<constant name="struts.enable.DynamicMethodInvocation" value="true" />
+	<constant name="struts.devMode" value="true" />     <!-- 開發模式 -->
+	
+	<package name="Font" namespace="/" extends="struts-default">
+		<action name="cutomer" class="com.struts.action.ScoreAction">
+			<result name="input">
+				/index.jsp
+			</result>
+		</action>
+		<!-- 
+		<interceptors>
+			<interceptor name="logon"
+				class="com.struts.interceptor.LoginInterceptor" />
+			<interceptor-stack name="myStack">
+				<interceptor-ref name="logon"></interceptor-ref>
+				<interceptor-ref name="defaultStack"></interceptor-ref>
+			</interceptor-stack>
+		</interceptors>
+		<default-interceptor-ref name="myStack"></default-interceptor-ref>
+
+		<action name="student" class="com.struts.action.StudentAction">
+			<result name="notification" type="chain">
+				<param name="actionName">process</param>
+				<param name="method">processLogin</param>
+				<param name="namespace">/</param>
+			</result>
+		</action>
+		
+		<action name="login" class="com.struts.action.LoginAction" />
+		<action name="process" class="com.struts.action.ProcessAction" />
+		 -->
+	</package>
+</struts>
